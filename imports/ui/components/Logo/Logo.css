@@ -1,0 +1,14 @@
+.position {
+  /* background: rgb(73, 117, 175); */
+  color: rgb(0, 0, 0);
+  width: 350px;
+  height: 80px;
+  position: fixed;
+  bottom:15px;
+  right: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 1rem;
+  padding-left: 0rem;
+}
