@@ -11,7 +11,7 @@ export function Navbar() {
     <nav className='navbar'>
       <div className='nav-left'>
         <img src='/img/logo.png' width='120' />
-        <li>Long Term Care</li>
+        <li className='name-width'>Long Term Care</li>
       </div>
 
       <div className='nav-right'>

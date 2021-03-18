@@ -52,3 +52,7 @@
   /* background: rgb(80, 228, 60); */
   width: 90px;
 }
+.name-width{
+  width: 144px;
+  letter-spacing: 2px;
+}

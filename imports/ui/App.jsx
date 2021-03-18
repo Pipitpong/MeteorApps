@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 // import axios from 'axios'
 import { Navbar } from './components/Navbar'
 import { Sidebar } from './components/Sidebar'
 import { Logo } from './components/Logo'
+import { HomePage } from './Page/HomePage'
 // import { Router } from 'express'
 // import { Switch } from 'react-router'
 // import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
@@ -118,10 +120,13 @@ import { Logo } from './components/Logo'
 // }
 export const App = () => {
   return (
-    <div className='App'>
+    <BrowserRouter>
       <Navbar />
       <Sidebar />
       <Logo />
-    </div>
+      <Switch>
+        <Route to='/home' component={HomePage} />
+      </Switch>
+    </BrowserRouter>
   )
 }

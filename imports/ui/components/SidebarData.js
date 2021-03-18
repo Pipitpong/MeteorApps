@@ -19,12 +19,12 @@ export const SidebarData = [
   {
     title: 'ผู้สูงอายุพึ่งพิง',
     icon: <FaIcons.FaUserAlt />,
-    link: '/home',
+    link: '/ผู้สูงอายุพึ่งพิง',
   },
   {
     title: 'Careplan',
     icon: <FaIcons.FaTasks />,
-    link: '/ผู้สูงอายุพึ่งพิง',
+    link: '/Careplan',
   },
   {
     title: 'CM & CG',
